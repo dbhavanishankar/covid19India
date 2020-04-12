@@ -51,7 +51,7 @@ import DateComponent from './DateComponent/TodayDate';
         <h5 className="section-title h1">COVID19 INDIA  <p style={{color: 'blue',fontSize: '0.5em'}}><DateComponent/></p></h5>
 
       <div>
-      <h5>Filter By State/UT : <select title="Select State"
+      <h5>States/UT : <select title="Select State"
       value={this.state.selectedTeam}
       onChange={this.handleChange}
     >
