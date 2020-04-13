@@ -37,7 +37,7 @@ export function StateWiseReport({statewisereport}) {
           </div>
         </div>
         <div className="backside">
-          <div className="card">
+          <div className="card" style={{width:'350px',height:'419px'}}>
             <div className="card-body text-center">
                 <h5 className="card-title">
                 {statewisereport.state} : <DateComponent/>
